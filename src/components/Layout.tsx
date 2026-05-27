@@ -1,6 +1,7 @@
 import { AnimatePresence } from "framer-motion";
 import Header from "./Header";
 import { Footer } from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 
 export const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -12,6 +13,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       </main>
 
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };
