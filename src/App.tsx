@@ -8,6 +8,7 @@ import { NotFound } from "./pages/NotFound";
 import LoveTimelinePage from "./pages/LoveTimelinePage";
 import JarOfLove from "./pages/JarOfLove";
 import Stargazing from "./pages/Stargazing";
+import Garden from "./pages/Garden";
 
 const App = () => {
   const location = useLocation();
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/timeline" element={<LoveTimelinePage />} />
         <Route path="/jar" element={<JarOfLove />} />
         <Route path="/stargazing" element={<Stargazing />} />
+        <Route path="/garden" element={<Garden />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>

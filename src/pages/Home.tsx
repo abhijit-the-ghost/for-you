@@ -37,6 +37,13 @@ const sweetCards = [
     text: "Gaze at the stars and reflect on our journey...",
     to: "/stargazing",
   },
+  {
+    id: 6,
+    icon: "🌸",
+    title: "Garden",
+    text: "A place where our love can bloom and grow...",
+    to: "/garden",
+  },
 ];
 
 export const Home = () => {
