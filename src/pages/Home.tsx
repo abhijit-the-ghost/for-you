@@ -23,6 +23,20 @@ const sweetCards = [
     text: "Relive the moments that brought us together...",
     to: "/timeline",
   },
+  {
+    id: 4,
+    icon: "✨",
+    title: "Jar of Love",
+    text: "A little jar filled with reasons why I love you...",
+    to: "/jar",
+  },
+  {
+    id: 5,
+    icon: "🌌",
+    title: "Stargazing",
+    text: "Gaze at the stars and reflect on our journey...",
+    to: "/stargazing",
+  },
 ];
 
 export const Home = () => {

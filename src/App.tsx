@@ -6,6 +6,8 @@ import { MoodCardsPage } from "./pages/MoodCardsPage";
 import { About } from "./pages/About";
 import { NotFound } from "./pages/NotFound";
 import LoveTimelinePage from "./pages/LoveTimelinePage";
+import JarOfLove from "./pages/JarOfLove";
+import Stargazing from "./pages/Stargazing";
 
 const App = () => {
   const location = useLocation();
@@ -23,6 +25,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/moods" element={<MoodCardsPage />} />
         <Route path="/timeline" element={<LoveTimelinePage />} />
+        <Route path="/jar" element={<JarOfLove />} />
+        <Route path="/stargazing" element={<Stargazing />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
