@@ -108,7 +108,7 @@ const notes: Note[] = [
   {
     id: 20,
     type: "quote",
-    text: "'I wish I could turn back the clock. I'd find you sooner and love you longer.' — Unknown",
+    text: "I wish I could turn back the clock. I'd find you sooner and love you longer.",
   },
   {
     id: 21,
